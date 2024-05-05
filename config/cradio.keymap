@@ -124,7 +124,7 @@
             &kp DEL   HRML(S,         D,         F,      G)            &kp LARW   &kp DARW   &kp UARW   &kp RARW    &trans 
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │          │          │          │          │   │     HOME │PAGE DN   │ PAGE UP  │ END      │          │
-            &trans     CAPS      PSCRN        INS      &trans          &kp HOME  &kp PG_DN   &kp PG_UP   &kp END    &trans  
+            &trans     &kp CAPS   &kp PSCRN   &kp INS   &trans          &kp HOME  &kp PG_DN   &kp PG_UP   &kp END    &trans  
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
                                              &trans     &kp ESC        &trans     &trans
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
