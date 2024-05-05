@@ -72,7 +72,7 @@
         };
 
         sh_space_dash_combo {
-            timeout-ms = <100>; 
+            timeout-ms = <1000>; 
             key-positions = <31 32>; 
             bindings = <&kp MINUS>;
         };
