@@ -54,7 +54,7 @@
             timeout-ms = <40>;
             key-positions = <22 23>;
             bindings = <&kp DEL>;
-        };s
+        };
         combo_renter {
             timeout-ms = <40>;
             key-positions = <6 7>;
