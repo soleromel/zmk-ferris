@@ -155,7 +155,7 @@
             &kp F1     &kp F2     &kp F3     &kp F4     &kp F5            &kp F6      &kp F7        &kp F8     &kp F9      &kp F10 
         //├──────────┼──────────┼──────────┼───────────┼────────────┤   ├────────────┼────────────┼──────────┼───────────┼──────────┤
         //│  BT0     │  BT1     │  F7      │  F8       │ TOGGLE GAME│   │            │ INC BRIGHT │          │  VOL UP   │ f11      │
-          &bt BT_SEL 0  &bt BT_SEL 1  &trans  &trans     &tog GAM         &trans      &kp C_BRI_INC  &trans   &kp C_VOL_UP  &kp F11
+          &bt BT_SEL 0  &bt BT_SEL 1 &bt BT_CLR  &trans     &tog GAM      &trans      &kp C_BRI_INC  &trans   &kp C_VOL_UP  &kp F11
         //├──────────┼──────────┼──────────┼───────────┼────────────┤   ├────────────┼────────────┼──────────┼───────────┼──────────┤
         //│  BT3     │  BT4     │ TOGGLEOUT│           │            │   │            │ DEC BRIGHT │          |  VOL DOWN │ f12      │
         &bt BT_SEL 3  &bt BT_SEL 4 &out OUT_TOG  &trans  &bootloader    &bootloader  &kp C_BRI_DEC  &trans   &kp C_VOL_DN &kp F12
