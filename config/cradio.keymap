@@ -26,7 +26,6 @@
             tapping-term-ms = <220>;
             quick-tap-ms = <150>;
             global-quick-tap;
-            hold-while-undecided;
             bindings = <&kp>, <&kp>;
         };
     };
