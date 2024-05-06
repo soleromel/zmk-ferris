@@ -134,14 +134,14 @@
         left_layer {
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
-        //│  !       │  @       │  #       │  $       │  %       │   │  ^       │  &       │  *       │  `       │  ~       │
-            &kp EXCL   &kp AT     &kp HASH   &kp DLLR   &kp PRCNT      &kp CARET  &kp AMPS   &kp ASTRK  &kp GRAVE   &kp TILDE
+        //│  !       │  @       │  #       │  $       │  %       │   │  ^       │  &       │  *       │  (       │  )       │
+            &kp EXCL   &kp AT     &kp HASH   &kp DLLR   &kp PRCNT      &kp CARET  &kp AMPS   &kp ASTRK  &kp LPAR   &kp RPAR
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
-        //│  "       │  [       │  {       │  (       │          │   │   /      │  -       │  =       │     :    │  ;       │
-            &kp DQT  HRML( LBKT,   LBRC,     LPAR,    &trans)         &kp FSLH   &kp MINUS  &kp EQUAL  &kp COLON   &kp SEMI
-        //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
-        //│  '       │  ]       │  }       │  )       │          │   │    \     │  _       │  +       │  │       │   ?      │
-            &kp SQT     &kp RBKT   &kp RBRC   &kp RPAR   &trans         &kp BSLH   &kp UNDER  &kp PLUS   &kp PIPE  &kp QMARK
+        //│          │  [       │  {       │  (       │          │   │   /      │  {       │  }       │     [    │  ]       │
+            &kp GRAVE  HRML( LBKT,   LBRC,     LPAR,    &trans)         &kp FSLH   &kp LBRC  &kp RBRC  &kp LBKT   &kp RBKT
+        //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├────'──────┼──────────┼──────────┼──────────┼──────────┤
+        //│          │  ]       │  }       │  )       │          │   │    \      │  =       │  +       │  ->      │   \      │
+            &kp TILDE     &kp RBKT   &kp RBRC   &kp RPAR   &trans      &kp BSLH   &kp EQUAL   &kp PLUS   &ti_ch    &kp BSLH
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
                                              &trans     &trans         &kp UNDER    &trans
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
