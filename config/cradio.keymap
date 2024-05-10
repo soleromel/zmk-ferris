@@ -128,14 +128,14 @@
         right_layer {
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
-        //│ 1        │  2       │  3       │  4       │  5       │   │ 6        │ 7        │ 8        │ 9        │   0      │
-            &kp N1    &kp N2     &kp N3     &kp N4     &kp N5          &kp N6     &kp N7     &kp N8     &kp N9      &kp N0
+        //│ F1       │  F2      │  F3      │  F4      │  F5      │   │ F6       │ F7        │ F8        │ F9     │   F10    │
+            &kp F1    &kp F2     &kp F3     &kp F4     &kp F5          &kp F6     &kp F7     &kp F8     &kp F9      &kp F10
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │          │          │          │          |   |    LEFT  │  DOWN    │  UP      │  RIGHT   │          │
             &kp INS   HRML(LCTRL,   BSPC,     DEL,       RET)          &kp LARW   &kp DARW   &kp UARW   &kp RARW    &kp RET 
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │          │          │          │          │   │     HOME │PAGE DN   │ PAGE UP  │ END      │          │
-            &trans     &trans     &kp CAPS   &kp INS   &trans          &kp HOME  &kp PG_DN   &kp PG_UP   &kp END    &trans  
+            &kp F11     &kp F12    &kp CAPS   &kp INS   &trans          &kp HOME  &kp PG_DN   &kp PG_UP   &kp END    &trans  
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
                                             &kp LS(TAB)   &trans        &trans     &trans
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
