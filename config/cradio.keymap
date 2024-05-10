@@ -79,25 +79,25 @@
         };
 
         combo_rgundo {
-            timeout-ms = <40>;
+            timeout-ms = <60>;
             key-positions = <26 27 28>;
             bindings = <&kp K_UNDO>;
         };
         combo_lgundo {
-            timeout-ms = <40>;
-            key-positions = <11 12 13>;
+            timeout-ms = <60>;
+            key-positions = <21 22 23>;
             bindings = <&kp K_UNDO>;
-        };
+        };'
 
         combo_rredo {
-            timeout-ms = <40>;
+            timeout-ms = <60>;
             key-positions = <36 37 38>;
-            bindings = <&kp K_UNDO>;
+            bindings = <&kp K_REDO>;
         };
         combo_lredo {
-            timeout-ms = <40>;
+            timeout-ms = <60>;
             key-positions = <31 32 33>;
-            bindings = <&kp K_UNDO>;
+            bindings = <&kp K_REDO>;
         };
     };
 
