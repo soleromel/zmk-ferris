@@ -7,8 +7,8 @@
 #include <dt-bindings/zmk/outputs.h>
 
 // Home row mods macro
-#define HRML(k1,k2,k3,k4) &ht LCTRL k1  &ht LALT k2  &ht RALT k3  &ht LGUI k4
-#define HRMR(k1,k2,k3,k4) &ht LGUI k1  &ht RALT k2  &ht LALT k3 &ht LCTRL k4
+#define HRML(k0,k1,k2,k3,k4) &ht LSHIFT k0 &ht LCTRL k1  &ht LALT k2  &ht RALT k3  &ht LGUI k4
+#define HRMR(k1,k2,k3,k4,k5) &ht LGUI k1  &ht RALT k2  &ht LALT k3 &ht LCTRL k4 &ht LSHIFT k5
 #define ROWNUM(c1,c2,c3,c4,c5,c6,c7,c8,c9,c0) &ht N1 c1  &ht N2 c2  &ht N3 c3  &ht N4 c4  &ht N5 c5  &ht N6 c6  &ht N7 c7  &ht N8 c8  &ht N9 c9  &ht N0 c0
 
 #define DEF 0
@@ -98,12 +98,12 @@
   ROWNUM(    Q,         W,         E,         R,         T,             Y,         U,         I,         O,         P)
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│  A       │  S       │  D       │  F       │  G       │   │  H       │  J       │  K       │  L       │    ; :   │
-            &kp A     HRML(S,         D,         F,      G)            HRMR( H,      J,        K,           L)     &kp SEMI
+            HMLR(A,     S,         D,         F,        G)            HRMR( H,      J,        K,           L,      SEMI)
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│  Z       │  X       │  C       │  V       │  B       │   │  N       │  M       │ , <      │ . >      │ / ?      │
             &kp Z      &kp X      &kp C      &kp V      &kp B          &kp N      &kp M      &kp COMMA  &kp DOT    &kp SLASH
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
-                                        &lt LEF TAB  &ht LSHIFT ESC    &kp SPACE  &lt RIG SQT
+                                        &lt LEF TAB  &ht LCTRL ESC    &kp SPACE  &lt RIG SQT
         //                                 ╰──────────┴──────────╯   ╰─────────┴──────────╯
             >;
         };
