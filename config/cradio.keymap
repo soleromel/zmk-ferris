@@ -7,8 +7,8 @@
 #include <dt-bindings/zmk/outputs.h>
 
 // Home row mods macro
-#define HRML(k1,k2,k3,k4) &ht LCTRL k1  &ht LALT k2  &ht LC(LALT) k3  &ht LGUI k4
-#define HRMR(k1,k2,k3,k4) &ht LGUI k1  &ht LC(LALT) k2  &ht LALT k3 &ht LCTRL k4
+#define HRML(k1,k2,k3,k4) &ht LCTRL k1  &ht LALT k2  &ht LC(RALT) k3  &ht LGUI k4
+#define HRMR(k1,k2,k3,k4) &ht LGUI k1  &ht LC(RALT) k2  &ht LALT k3 &ht LCTRL k4
 #define ROWNUM(c1,c2,c3,c4,c5,c6,c7,c8,c9,c0) &ht N1 c1  &ht N2 c2  &ht N3 c3  &ht N4 c4  &ht N5 c5  &ht N6 c6  &ht N7 c7  &ht N8 c8  &ht N9 c9  &ht N0 c0
 
 #define DEF 0
@@ -42,32 +42,32 @@
     combos {
         compatible = "zmk,combos";
         combo_lenter {
-            timeout-ms = <40>;
+            timeout-ms = <50>;
             key-positions = <2 3>;
             bindings = <&kp ENTER>;
         };
         combo_ldel {
-            timeout-ms = <40>;
+            timeout-ms = <50>;
             key-positions = <12 13>;
             bindings = <&kp BSPC>;
         };
         combo_lins {
-            timeout-ms = <40>;
+            timeout-ms = <50>;
             key-positions = <22 23>;
             bindings = <&kp DEL>;
         };
         combo_renter {
-            timeout-ms = <40>;
+            timeout-ms = <50>;
             key-positions = <6 7>;
             bindings = <&kp ENTER>;
         };
         combo_rdel {
-            timeout-ms = <40>;
+            timeout-ms = <50>;
             key-positions = <16 17>;
             bindings = <&kp BSPC>;
         };
         combo_rins {
-            timeout-ms = <40>;
+            timeout-ms = <50>;
             key-positions = <26 27>;
             bindings = <&kp DEL>;
         };
@@ -76,28 +76,6 @@
             timeout-ms = <1000>; 
             key-positions = <31 32>; 
             bindings = <&kp MINUS>;
-        };
-
-        combo_rgundo {
-            timeout-ms = <60>;
-            key-positions = <26 27 28>;
-            bindings = <&kp K_UNDO>;
-        };
-        combo_lgundo {
-            timeout-ms = <60>;
-            key-positions = <21 22 23>;
-            bindings = <&kp K_UNDO>;
-        };
-
-        combo_rredo {
-            timeout-ms = <60>;
-            key-positions = <36 37 38>;
-            bindings = <&kp K_REDO>;
-        };
-        combo_lredo {
-            timeout-ms = <60>;
-            key-positions = <31 32 33>;
-            bindings = <&kp K_REDO>;
         };
     };
 
