@@ -148,7 +148,7 @@
         //│          │          │          │          │          │   │           │  =       │  +       │  ->      │   \     │
             &trans      &trans     &trans     &trans     &trans       &kp MINUS   &kp EQUAL   &kp PLUS   &ti_ch    &kp BSLH
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
-                                             &trans     &trans         &kp UNDER   &trans
+                                             &trans     &trans         &kp UNDER &lt RIG DQT
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
             >;
         };
