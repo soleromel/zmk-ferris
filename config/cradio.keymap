@@ -97,7 +97,7 @@
         //│  Z       │  X       │  C       │  V       │  B       │   │  N       │  M       │ , <      │ . >      │ / ?      │
             &kp Z      &kp X      &kp C      &kp V      &kp B          &kp N      &kp M      &kp COMMA  &kp DOT    &kp SLASH
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
-                                        &lt LEF TAB  &ht LCTRL ESC    &kp SPACE  &lt RIG SQT
+                                        &lt LEF TAB  &ht LCTRL ESC  &ht RALT SPACE  &lt RIG SQT
         //                                 ╰──────────┴──────────╯   ╰─────────┴──────────╯
             >;
         };
@@ -114,7 +114,7 @@
         //           │  Z       │  X       │  C       │  V       │   │          │          │          │          │          │
             &kp LCTRL  &kp Z      &kp X      &kp C      &kp V          &trans      &trans      &trans    &trans     &trans  
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
-                                           &lt LEF LALT &kp SPACE     &kp SPACE  &lt RIG TAB
+                                             &kp LALT  &kp SPACE      &kp RALT  &lt RIG TAB
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
             >;
         };
