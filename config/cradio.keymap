@@ -137,7 +137,7 @@
         //│          │          │          │          │          │   │     HOME │PAGE DN   │ PAGE UP  │ END      │          │
             &kp F11     &kp F12    &kp CAPS   &kp INS   &trans          &kp HOME  &kp PG_DN   &kp PG_UP   &kp END    &trans  
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
-                                            &kp LS(TAB)   &trans        &trans     &trans
+                                            &kp LS(TAB) &kp LCTRL        &trans     &trans
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
             >;
         };
