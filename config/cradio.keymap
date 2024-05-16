@@ -135,7 +135,7 @@
             HRML( INS,   LCTRL,   BSPC,     DEL,       RET)          &kp LARW   &kp DARW   &kp UARW   &kp RARW    &kp RET 
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │          │          │          │          │   │     HOME │PAGE DN   │ PAGE UP  │ END      │          │
-            &kp F11     &kp F12    &kp CAPS   &kp INS   &trans          &kp HOME  &kp PG_DN   &kp PG_UP   &kp END    &trans  
+            &kp F11     &kp F12    &kp CAPS  &kp INS   &kp LSHIFT     &kp HOME  &kp PG_DN   &kp PG_UP   &kp END    &trans  
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
                                             &kp LS(TAB) &kp LCTRL        &trans     &trans
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
