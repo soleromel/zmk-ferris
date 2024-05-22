@@ -45,31 +45,44 @@
             timeout-ms = <50>;
             key-positions = <2 3>;
             bindings = <&kp ENTER>;
+            require-prior-idle-ms = 100ms;
+            slow-release: true
         };
         combo_ldel {
             timeout-ms = <50>;
             key-positions = <12 13>;
             bindings = <&kp BSPC>;
+            require-prior-idle-ms: 50
+            slow-release: true
         };
         combo_lins {
             timeout-ms = <50>;
             key-positions = <22 23>;
             bindings = <&kp DEL>;
+            require-prior-idle-ms: 50
+            slow-release: true
         };
         combo_renter {
             timeout-ms = <50>;
             key-positions = <6 7>;
             bindings = <&kp ENTER>;
+            require-prior-idle-ms = 100ms;
+            slow-release: true
+            
         };
         combo_rdel {
             timeout-ms = <50>;
             key-positions = <16 17>;
             bindings = <&kp BSPC>;
+            require-prior-idle-ms: 50
+            slow-release: true
         };
         combo_rins {
             timeout-ms = <50>;
             key-positions = <26 27>;
             bindings = <&kp DEL>;
+            require-prior-idle-ms: 50
+            slow-release: true
         };
     };
 
