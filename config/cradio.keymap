@@ -45,7 +45,7 @@
             key-positions = <2 3>;
             bindings = <&kp ENTER>;
             require-prior-idle-ms = <100>;
-            slow-release: true
+            slow-release: true;
         };
         combo_ldel {
             timeout-ms = <50>;
