@@ -153,11 +153,11 @@
         //│  !       │  @       │  #       │  $       │  %       │   │  ^       │  &       │  *       │  (       │  )       │
             &kp EXCL   &kp AT     &kp HASH   &kp DLLR   &kp PRCNT      &kp CARET  &kp AMPS   &kp ASTRK  &kp LPAR   &kp RPAR
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
-        //│     ~    │  `       │          │          │          │   │   |      │  {       │  }       │     [    │  ]       │
-         HRML( TILDE,    GRAVE,   &trans,  &trans,     &trans)         &kp PIPE   &kp LBRC  &kp RBRC  &kp LBKT   &kp RBKT
+        //│     ~    │  `       │          │          │          │   │   {      │  }       │   [      │     ]    │  :       │
+         HRML( TILDE,    GRAVE,   &kp BSLH,  &kp PIPE,     &trans)         &kp LBRC   &kp RBRC  &kp LBKT  &kp RBKT   &kp COLON
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├────'──────┼──────────┼──────────┼──────────┼─────────┤
-        //│          │          │          │          │          │   │           │  =       │  +       │  ->      │   \     │
-            &trans      &trans     &trans     &trans     &trans       &kp MINUS   &kp EQUAL   &kp PLUS   &ti_ch    &kp BSLH
+        //│          │          │          │          │          │   │      +    │  =       │  <       │   >      │    ?    │
+            &kp BSLH   &kp PIPE    &trans     &trans     &trans       &kp PLUS   &kp EQUAL     &kp LT    &kp GT    &kp QMARK
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
                                              &trans     &trans       &lt RIG UNDER &kp MINUS
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
