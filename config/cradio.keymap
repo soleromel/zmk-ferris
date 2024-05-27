@@ -7,9 +7,9 @@
 #include <dt-bindings/zmk/outputs.h>
 
 // Home row mods macro
-#define HRML(k1,k2,k3,k4,k5) &ht LSHIFT k1  &ht LALT k2  &ht LSHIFT k3  &ht LALT k4  &ht LGUI k5
-#define HRMR(k1,k2,k3,k4,k5) &ht LGUI k1  &ht RALT k2  &ht LALT k3 &ht LCTRL k4  &ht LSHIFT k5
-#define ROWNUM(c1,c2,c3,c4,c5,c6,c7,c8,c9,c0) &ht N1 c1  &ht N2 c2  &ht N3 c3  &ht N4 c4  &ht N5 c5  &ht N6 c6  &ht N7 c7  &ht N8 c8  &ht N9 c9  &ht N0 c0
+#define HRML(k1,k2,k3,k4,k5) &hth LSHIFT k1  &hth LALT k2  &hth LSHIFT k3  &hth LALT k4  &hth LGUI k5
+#define HRMR(k1,k2,k3,k4,k5) &hth LGUI k1  &hth RALT k2  &hth LALT k3 &hth LCTRL k4  &hth LSHIFT k5
+#define ROWNUM(c1,c2,c3,c4,c5,c6,c7,c8,c9,c0) &htn N1 c1  &htn N2 c2  &htn N3 c3  &htn N4 c4  &htn N5 c5  &htn N6 c6  &htn N7 c7  &htn N8 c8  &htn N9 c9  &htn N0 c0
 
 #define DEF 0
 #define GAM 1
@@ -19,13 +19,23 @@
 
 / {
     behaviors {
-        ht: hold_tap {
+        hth: hold_tap {
+            label = "hold_tap_homerow";
+            compatible = "zmk,behavior-hold-tap";
+            #binding-cells = <2>;
+            flavor = "hold-preferred";
+            tapping-term-ms = <280>;
+            quick-tap-ms = <0>;
+            bindings = <&kp>, <&kp>;
+        };
+        htn: hold_tap_num {
             label = "hold_tap";
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
-            flavor = "balanced";
-            tapping-term-ms = <280>;
-            quick-tap-ms = <0>;
+            flavor = "tap-preferred";
+            tapping-term-ms = <200>;
+            quick-tap-ms = <200>;
+            require-prior-idle-ms = <125>;
             bindings = <&kp>, <&kp>;
         };
     };
