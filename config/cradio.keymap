@@ -166,10 +166,10 @@
         //│     ~    │  `       │          │          │          │   │   {      │  }       │   [      │     ]    │  :       │
          HRML( TILDE,    GRAVE,    BSLH,      PIPE,     &trans)         &kp LBRC   &kp RBRC  &kp LBKT  &kp RBKT   &kp COLON
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├────'──────┼──────────┼──────────┼──────────┼─────────┤
-        //│          │          │          │          │          │   │      +    │  =       │  <       │   >      │    ?    │
-            &kp BSLH   &kp PIPE    &trans     &trans     &trans       &kp PLUS   &kp EQUAL     &kp LT    &kp GT    &kp QMARK
+        //│          │          │          │          │          │   │      -    │  =       │  <       │   >      │    ?    │
+            &kp BSLH   &kp PIPE    &trans   &kp PLUS     &trans       &kp MINUS   &kp EQUAL     &kp LT    &kp GT    &kp QMARK
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
-                                             &trans     &trans       &lt RIG UNDER &kp MINUS
+                                             &trans     &trans       &lt RIG UNDER &kp DQT
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
             >;
         };
