@@ -23,9 +23,10 @@
             label = "hold_tap_homerow";
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
-            flavor = "balanced";
-            tapping-term-ms = <280>;
-            quick-tap-ms = <0>;
+            flavor = "tap-preferred";
+            tapping-term-ms = <220>;
+            quick-tap-ms = <150>;
+            global-quick-tap;
             bindings = <&kp>, <&kp>;
         };
         htn: hold_tap_num {
