@@ -7,8 +7,8 @@
 #include <dt-bindings/zmk/outputs.h>
 
 // Home row mods macro
-#define HRML(k1,k2,k3,k4,k5) &hth LSHIFT k1  &hth LALT k2  &hth LSHIFT k3  &hth LALT k4  &hth LGUI k5
-#define HRMR(k1,k2,k3,k4,k5) &hth LGUI k1  &hth RALT k2  &hth LALT k3 &hth LCTRL k4  &hth LSHIFT k5
+#define HRML(k1,k2,k3,k4,k5) &hth LCTRL k1  &hth LCTRL k2  &hth LALT k3  &hth LALT k4  &hth LGUI k5
+#define HRMR(k1,k2,k3,k4,k5) &hth LGUI k1  &hth RALT k2  &hth LALT k3 &hth LCTRL k4  &hth LCTRL k5
 #define ROWNUM(c1,c2,c3,c4,c5,c6,c7,c8,c9,c0) &htn N1 c1  &htn N2 c2  &htn N3 c3  &htn N4 c4  &htn N5 c5  &htn N6 c6  &htn N7 c7  &htn N8 c8  &htn N9 c9  &htn N0 c0
 
 #define DEF 0
@@ -119,7 +119,7 @@
         //│  Z       │  X       │  C       │  V       │  B       │   │  N       │  M       │ , <      │ . >      │ / ?      │
             &kp Z      &kp X      &kp C      &kp V      &kp B          &kp N      &kp M      &kp COMMA  &kp DOT    &kp SLASH
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
-                                        &lt LEF TAB  &hth LCTRL ESC  &lt RIG SPACE  &hth RALT SQT
+                                        &lt LEF TAB  &hth LSHIFT ESC  &lt RIG SPACE  &hth RALT SQT
         //                                 ╰──────────┴──────────╯   ╰─────────┴──────────╯
             >;
         };
@@ -148,12 +148,12 @@
             &kp F1    &kp F2     &kp F3     &kp F4     &kp F5          &kp F6     &kp F7     &kp F8     &kp F9      &kp F10
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │          │          │          │          |   |    LEFT  │  DOWN    │  UP      │  RIGHT   │          │
-            HRML( INS,   LCTRL,   BSPC,     DEL,       RET)          &kp LARW   &kp DARW   &kp UARW   &kp RARW    &kp RET 
+            HRML( INS,   LCTRL,   BSPC,     DEL,       RET)          &kp LARW   &kp DARW   &kp UARW   &kp RARW    &kp LCTRL 
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │          │          │          │          │   │     HOME │PAGE DN   │ PAGE UP  │ END      │          │
-            &kp F11     &kp F12    &kp CAPS  &kp INS   &kp LSHIFT     &kp HOME  &kp PG_DN   &kp PG_UP   &kp END    &trans  
+            &kp F11     &kp F12    &kp CAPS  &kp INS   &kp LSHIFT     &kp HOME  &kp PG_DN   &kp PG_UP   &kp END    &kp LSHIFT  
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
-                                            &kp LS(TAB) &kp LCTRL        &trans     &trans
+                                         &kp LS(TAB) &hth LSHIFT ESC   &trans     &trans
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
             >;
         };
