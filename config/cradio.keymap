@@ -53,9 +53,9 @@
         compatible = "zmk,combos";
         combo_lenter {
             timeout-ms = <50>;
-            key-positions = <22 33>;
+            key-positions = <22 23>;
             bindings = <&kp ENTER>;
-            require-prior-idle-ms = <100>;
+            require-prior-idle-ms = <50>;
             slow-release;
         };
         combo_ldel {
@@ -76,7 +76,7 @@
             timeout-ms = <50>;
             key-positions = <26 27>;
             bindings = <&kp ENTER>;
-            require-prior-idle-ms = <100>;
+            require-prior-idle-ms = <50>;
             slow-release;
             
         };
