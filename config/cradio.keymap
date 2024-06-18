@@ -158,7 +158,7 @@
             HRML( F11,     F12,    BSPC,     DEL,       RET)          &kp LARW   &kp DARW   &kp UARW   &kp RARW    &kp LCTRL 
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │          │          │          │          │   │     HOME │PAGE DN   │ PAGE UP  │ END      │          │
-            &kp F11     &kp F12    &kp CAPS  &kp INS   &kp LSHIFT     &kp HOME  &kp PG_DN   &kp PG_UP   &kp END    &kp LSHIFT  
+            &kp F11     &kp F12    &kp CAPS  &kp INS     &trans      &kp HOME  &kp PG_DN   &kp PG_UP   &kp END    &kp LSHIFT  
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
                                          &kp LS(TAB) &mt LSHIFT ESC   &trans     &trans
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
@@ -172,10 +172,10 @@
             &kp EXCL   &kp AT     &kp HASH   &kp DLLR   &kp PRCNT      &kp CARET  &kp AMPS   &kp ASTRK  &kp LPAR   &kp RPAR
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│     ~    │  `       │          │          │          │   │   {      │  }       │   [      │     ]    │  :       │
-         HRML( TILDE,    GRAVE,    BSLH,      PIPE,     &trans)         &kp LBRC   &kp RBRC  &kp LBKT  &kp RBKT   &kp COLON
+         HRML( TILDE,    GRAVE,    BSLH,      PIPE,   KP_EQUAL)         &kp LBRC   &kp RBRC  &kp LBKT  &kp RBKT   &kp COLON
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├────'──────┼──────────┼──────────┼──────────┼─────────┤
         //│          │          │          │          │          │   │      -    │  =       │  <       │   >      │    ?    │
-            &kp BSLH   &kp PIPE    &trans   &kp LSHIFT  &kp PLUS      &kp MINUS   &kp EQUAL     &kp LT    &kp GT    &kp QMARK
+       &kp LSHIFT  &kp KP_MULTIPLY &kp KP_DIVIDE &kp KP_PLUS &kp KP_MINUS &kp MINUS &kp EQUAL &kp LT    &kp GT    &kp QMARK
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
                                              &trans     &trans       &lt RIG UNDER &kp DQT
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
