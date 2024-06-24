@@ -160,7 +160,7 @@
         //│          │          │          │          │          │   │     HOME │PAGE DN   │ PAGE UP  │ END      │          │
             &kp F11     &kp F12    &kp CAPS  &kp INS     &trans      &kp HOME  &kp PG_DN   &kp PG_UP   &kp END    &kp LSHIFT  
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
-                                           &mt LSHIFT  &lt LEF ESC     &trans     &trans
+                                    &mt LSHIFT LS(TAB)  &kp MINUS     &trans     &trans
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
             >;
         };
@@ -177,7 +177,7 @@
         //│          │          │          │          │          │   │      -    │  =       │  <       │   >      │    ?    │
        &kp LSHIFT  &kp KP_MULTIPLY &kp KP_DIVIDE &kp KP_PLUS &kp KP_MINUS &kp MINUS &kp EQUAL &kp LT    &kp GT    &kp QMARK
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
-                                           &kp LS(TAB)   &trans     &lt RIG UNDER &kp DQT
+                                               &trans   &trans        &lt RIG UNDER &kp DQT
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
             >;
         };
