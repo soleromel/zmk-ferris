@@ -141,7 +141,7 @@
            &kp LSHIFT   &kp A    &kp S        &kp D      &kp F        &trans       &trans     &trans    &trans     &trans
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //           │  Z       │  X       │  C       │  V       │   │          │          │          │          │          │
-            &kp LCTRL  &kp Z      &kp X      &kp C      &kp V          &trans      &trans      &trans    &trans     &trans  
+            &kp LCTRL  &kp Z      &kp X      &kp C      &kp V        &lt LEF ESC      &lt RIG SPACE      &trans    &trans     &trans  
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
                                              &kp LALT  &kp SPACE      &kp RALT  &lt RIG TAB
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
