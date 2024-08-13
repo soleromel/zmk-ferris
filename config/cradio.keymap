@@ -175,7 +175,7 @@
             &kp LCTRL   &kp LARW  &kp DARW     &kp RARW   &kp RET       &kp LARW   &kp DARW   &kp UARW   &kp RARW    &kp LCTRL 
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │          │          │          │          │   │     HOME │PAGE DN   │ PAGE UP  │ END      │          │
-            &kp F11     &kp F12   &kp PG_DN  &kp INS     &trans      &kp HOME  &kp PG_DN   &kp PG_UP   &kp END    &kp LSHIFT  
+            &kp F11     &kp F12   &kp PG_DN  &kp PG_UP     &trans      &kp HOME  &kp PG_DN   &kp PG_UP   &kp END    &kp LSHIFT  
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
                                         &mt LSHIFT TAB  &trans          &lt RIG  &trans
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
