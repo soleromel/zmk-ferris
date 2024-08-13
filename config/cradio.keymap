@@ -177,7 +177,7 @@
         //│          │          │          │          │          │   │     HOME │PAGE DN   │ PAGE UP  │ END      │          │
             &kp F11     &kp F12   &kp PG_DN  &kp PG_UP     &trans      &kp HOME  &kp PG_DN   &kp PG_UP   &kp END    &kp LSHIFT  
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
-                                        &mt LSHIFT TAB  &trans          &lt RIG  &trans
+                                        &mt LSHIFT TAB  &trans        &lt RIG ESC  &trans
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
             >;
         };
