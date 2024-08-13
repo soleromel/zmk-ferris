@@ -172,7 +172,7 @@
             &kp F1    &kp HOME     &kp UARW   &kp END     &kp F5          &kp F6     &kp F7     &kp F8     &kp F9      &kp F10
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │          │          │          │          |   |    LEFT  │  DOWN    │  UP      │  RIGHT   │          │
-            &kp LCTRL   &kp LARW  &kp DARW   &kp RARW  &kp LSHIFT       &kp LARW   &kp DARW   &kp UARW   &kp RARW    &kp LCTRL 
+            &kp LCTRL   &kp LARW  &kp DARW   &kp RARW  &kp LALT       &kp LARW   &kp DARW   &kp UARW   &kp RARW    &kp LCTRL 
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │          │          │          │          │   │     HOME │PAGE DN   │ PAGE UP  │ END      │          │
             &kp LSHIFT  &kp PG_DN  &kp LALT  &kp PG_UP  &kp SPACE     &kp HOME  &kp PG_DN   &kp PG_UP   &kp END    &kp LSHIFT  
