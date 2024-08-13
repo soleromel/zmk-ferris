@@ -126,7 +126,7 @@
         //│  Z       │  X       │  C       │  V       │  B       │   │  N       │  M       │ , <      │ . >      │ / ?      │
             &kp Z      &kp X      &kp C      &kp V      &kp B          &kp N      &kp M      &kp COMMA  &kp DOT    &kp SLASH
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
-                                        &mt LSHIFT TAB  &lt LEF SPACE  &lt RIG ESC  &mt RALT SQT
+                                        &mt LSHIFT TAB  &lt LEF ESC  &lt RIG SPACE  &mt RALT SQT
         //                                 ╰──────────┴──────────╯   ╰─────────┴──────────╯
             >;
         };
@@ -175,9 +175,9 @@
             &kp LCTRL   &kp LARW  &kp DARW   &kp RARW  &kp LSHIFT       &kp LARW   &kp DARW   &kp UARW   &kp RARW    &kp LCTRL 
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │          │          │          │          │   │     HOME │PAGE DN   │ PAGE UP  │ END      │          │
-            &kp LSHIFT  &kp PG_DN  &kp LALT  &kp PG_UP     &trans      &kp HOME  &kp PG_DN   &kp PG_UP   &kp END    &kp LSHIFT  
+            &kp LSHIFT  &kp PG_DN  &kp LALT  &kp PG_UP  &kp SPACE     &kp HOME  &kp PG_DN   &kp PG_UP   &kp END    &kp LSHIFT  
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
-                                        &mt LSHIFT TAB  &trans        &lt RIG ESC  &kp LALT
+                                        &mt LSHIFT TAB  &trans        &lt RIG SPACE  &kp LALT
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
             >;
         };
