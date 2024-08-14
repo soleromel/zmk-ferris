@@ -124,7 +124,7 @@
             HRML( A,    S,         D,         F,        G)            HRMR( H,      J,        K,           L,      SEMI)
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│  Z       │  X       │  C       │  V       │  B       │   │  N       │  M       │ , <      │ . >      │ / ?      │
-            &kp Z      &kp X      &kp C      &kp V      &kp B          &kp N      &kp M      &kp COMMA  &kp DOT    &kp SLASH
+      &mt LSHIFT Z      &kp X      &kp C      &kp V      &kp B          &kp N      &kp M      &kp COMMA  &kp DOT  &mt LSHIFT SLASH
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
                                         &mt LSHIFT TAB  &lt LEF ESC  &lt RIG SPACE  &mt RALT SQT
         //                                 ╰──────────┴──────────╯   ╰─────────┴──────────╯
@@ -160,7 +160,7 @@
         //│          │          │          │          │          │   │     HOME │PAGE DN   │ PAGE UP  │ END      │          │
             &kp F11     &kp F12    &kp CAPS  &kp INS     &trans      &kp HOME  &kp PG_DN   &kp PG_UP   &kp END    &kp LSHIFT  
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
-                                    &mt LSHIFT LS(TAB)  &kp MINUS     &trans     &trans
+                                    &mt LSHIFT LS(TAB) &lt LEF MINUS     &trans     &trans
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
             >;
         };
