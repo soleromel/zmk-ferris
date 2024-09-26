@@ -10,6 +10,7 @@
 #define HRML(k1,k2,k3,k4,k5) &hth LCTRL k1  &hth LCTRL k2  &hth LALT k3  &hth LALT k4  &hth LGUI k5
 #define HRMR(k1,k2,k3,k4,k5) &hth LGUI k1  &hth RALT k2  &hth LALT k3 &hth LCTRL k4  &hth LCTRL k5
 #define ROWNUM(c1,c2,c3,c4,c5,c6,c7,c8,c9,c0) &htn N1 c1  &htn N2 c2  &htn N3 c3  &htn N4 c4  &htn N5 c5  &htn N6 c6  &htn N7 c7  &htn N8 c8  &htn N9 c9  &htn N0 c0
+#define ROWNUMALT(c6,c7,c8,c9,c0) &htn N6 c6  &htn N7 c7  &htn N8 c8  &htn N9 c9  &htn N0 c0
 
 #define DEF 0
 #define GAM 1
@@ -169,7 +170,7 @@
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
         //│  !       │  @       │  #       │  $       │  %       │   │  ^       │  &       │  *       │  (       │  )       │
-            &kp EXCL   &kp AT     &kp HASH   &kp DLLR   &kp PRCNT      &kp CARET  &kp AMPS   &kp ASTRK  &kp LPAR   &kp RPAR
+ROWNUMALT(   EXCL,       AT,        HASH,    DLLR,      PRCNT)         &kp CARET  &kp AMPS   &kp ASTRK  &kp LPAR   &kp RPAR
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│     ~    │  `       │          │          │          │   │   {      │  }       │   [      │     ]    │  :       │
          HRML( TILDE,    GRAVE,    BSLH,      PIPE,   KP_EQUAL)         &kp LBRC   &kp RBRC  &kp LBKT  &kp RBKT   &kp COLON
